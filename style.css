@@ -146,3 +146,53 @@ iframe {
     padding: 15px;
 }
 
+/* ADMIN */
+.fora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.areaInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.areaInput input {
+    font-size: 18px;
+    height: 30px;
+    padding: 15px;
+    background-color: #e6e6fa;
+    border-radius: 10px;
+    border: none;
+}
+
+.areaInput input:focus {
+    background-color: white;
+    outline: none;
+    border: 1px solid darkslateblue;
+}
+
+.fora button {
+    border: none;
+    border-radius: 10px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.fora button:hover {
+    background-color: darkblue;
+    font-weight: 700;
+}
+
+.listaPetianos h3 {
+    margin-bottom: 20px;
+}
